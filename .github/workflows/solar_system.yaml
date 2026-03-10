@@ -47,7 +47,7 @@ jobs:
 
     code_coverage:
         name: code coverage
-        runs-on: ubuntu_latest
+        runs-on: ubuntu-latest
         steps:
         - name: checkout
           uses: actions/checkout@v4
