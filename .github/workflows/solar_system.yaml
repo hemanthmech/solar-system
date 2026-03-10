@@ -45,7 +45,7 @@ jobs:
             name: Mocha-Test Result_1_${{matrix.nodejs_version}}_${{matrix.operating_system}}
             path: test-results.xml 
 
-      code_coverage:
+    code_coverage:
         name: code coverage
         runs-on: ubuntu_latest
         steps:
